@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MetaFi Labs | DeFi Product Engineering",
+  title: "MetaFi Labs | Finance Software Engineering",
   description:
-    "MetaFi Labs is a full-stack and Solidity engineering studio building the future of open finance.",
+    "MetaFi Labs is a full-stack product and engineering studio delivering modern financial technology solutions.",
 };
 
 export default function RootLayout({

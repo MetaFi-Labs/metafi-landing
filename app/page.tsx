@@ -3,24 +3,24 @@ import Link from "next/link";
 
 const highlights = [
   {
-    title: "Protocol Integrations",
+    title: "Financial Platform Engineering",
     description:
-      "Composable dashboards and smart contract interactions tailored to your governance and liquidity flows.",
+      "Composable dashboards, trading tools, and treasury systems tailored to your operating model.",
   },
   {
     title: "Investor-Ready Launches",
     description:
-      "Product, brand, and onchain analytics packaged for data rooms and community-first announcements.",
+      "Product, brand, and analytics packages built for data rooms, fundraising, and stakeholder updates.",
   },
   {
-    title: "Lifecycle Automation",
+    title: "Operations Automation",
     description:
-      "Backend services, indexers, and agent tooling that keep DeFi operations resilient around the clock.",
+      "Backend services, workflow engines, and integrations that keep financial operations resilient around the clock.",
   },
   {
     title: "Security by Design",
     description:
-      "Solidity reviews, invariant testing, and observability hooks shipped as part of every engagement.",
+      "Resilience reviews, scenario testing, and observability hooks shipped as part of every engagement.",
   },
 ];
 
@@ -50,16 +50,16 @@ export default function Home() {
         <section className="grid gap-12 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.9fr)] md:items-center md:gap-10">
           <div className="max-w-2xl space-y-8">
             <span className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.38em] text-sky-200/80">
-              Open Finance Builders
+              Financial Software Specialists
             </span>
             <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl md:text-6xl">
-              MetaFi Labs is a full-stack &amp; Solidity developer agency
-              building the future of the open financial system.
+              MetaFi Labs is a full-stack product and engineering studio
+              advancing modern financial software.
             </h1>
             <p className="text-base text-sky-100/80 sm:text-lg">
-              We design, audit, and ship go-to-market ready DeFi products —
-              from protocol dashboards and hybrid mobile apps to onchain agent
-              services that unlock new liquidity.
+              We design, build, and maintain go-to-market ready financial
+              products — from portfolio dashboards and digital banking
+              experiences to automation services that streamline operations.
             </p>
             <div className="flex items-center gap-4 text-sky-100/70">
               <span className="inline-block h-px w-10 bg-sky-100/30" />
@@ -119,9 +119,9 @@ export default function Home() {
                 What working with us looks like
               </h2>
               <p className="text-sm text-sky-100/85">
-                Dedicated engineering pods blend product, smart contract, and
-                growth capabilities. We embed with your founding team, model the
-                roadmap, and ship measurable outcomes every sprint.
+                Dedicated engineering pods blend product, backend, data, and
+                growth capabilities. We embed with your leadership team, model
+                the roadmap, and ship measurable outcomes every sprint.
               </p>
             </div>
             <ul className="space-y-3 text-sm text-sky-100/80">
@@ -134,8 +134,8 @@ export default function Home() {
                   className="mt-0.5"
                 />
                 <span>
-                  Weekly protocol reviews plus async Loom updates to keep
-                  contributors in sync.
+                  Weekly roadmap reviews plus async Loom updates to keep
+                  stakeholders aligned.
                 </span>
               </li>
               <li className="flex items-start gap-3">
@@ -147,8 +147,9 @@ export default function Home() {
                   className="mt-0.5"
                 />
                 <span>
-                  Partner ecosystem intros spanning auditors, growth collectives,
-                  and launchpads ready to accelerate distribution.
+                  Partner ecosystem intros spanning compliance experts,
+                  go-to-market teams, and strategic advisors ready to accelerate
+                  adoption.
                 </span>
               </li>
               <li className="flex items-start gap-3">
@@ -160,8 +161,8 @@ export default function Home() {
                   className="mt-0.5"
                 />
                 <span>
-                  Predictable engagement models — sprints, retainers, or agent
-                  pods plugged directly into your DAO or startup.
+                  Predictable engagement models — sprints, retainers, or
+                  embedded squads integrated directly with your company.
                 </span>
               </li>
             </ul>
